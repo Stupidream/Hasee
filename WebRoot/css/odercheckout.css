@@ -1,0 +1,431 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	color: #666;
+}
+body{
+	margin: 0 auto;
+	min-width: 1240px;
+	max-width: 1920px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+input,textarea{
+	outline:none;
+}
+
+input[type=button], input[type=radio], input[type=checkbox], label {
+    cursor: pointer;
+}
+
+#header{
+	width: 100%;
+	height: 36px;
+	background-color:#f4f4f4;
+}
+
+.topboxcenter{
+	margin: 0 auto;
+	width: 1240px;
+}
+
+.topleftbox{
+	float: left;
+	line-height: 36px;
+}
+
+.topleftbox span{
+	float: left;
+	font-size: 12px;
+}
+
+.topleftbox a{
+	float: left;
+    width: 24px;
+    height: 36px;
+    margin: 0 5px 0 10px;
+}
+
+.iconwebo{
+	background: url(../img/icon/icon_weibo.png) no-repeat center;
+}
+.iconbaidu{
+	background: url(../img/icon/icon_baidu.png) no-repeat center;
+}
+.iconwechat{
+	background: url(../img/icon/icon_wechat.png) no-repeat center;
+}
+
+.loginbox{
+	float: right;
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+}
+
+.loginbox a{
+	font-size: 12px;
+	margin: 0 10px 0 10px;
+}
+
+.logou{
+	float: left;
+	width: 254px;
+	height: 33px;
+	margin-top: 39px;
+	margin-bottom:39px;
+	background:url(../img/odercheckout/logo.png) no-repeat center;
+}
+
+.head_tip{
+	overflow: hidden;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.check_p{
+	float: left;
+	font-size: 26px;
+	height: 33px;
+	line-height: 33px;
+	border-left:1px solid #DDDDDD;
+	padding-left: 53px;
+	margin-left: 20px;
+	margin-top: 40px;
+	background: url(../img/odercheckout/shop_car.png) no-repeat 15px 7px;
+}
+
+.shop_process{
+	float: right;
+	width: 504px;
+	height: 64px;
+	background: url(../img/odercheckout/shop_bg1_1.png) no-repeat;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.shop_process li{
+	float: left;
+	width: 124px;
+	line-height: 40px;
+}
+
+.shop_process p{
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 24px;
+	height: 24px;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 24px;
+}
+
+.p_bpic{
+	background: url(../img/odercheckout/shop_bg1_2.png) no-repeat;
+}
+
+#main{
+	overflow: hidden;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.address{
+	overflow: hidden;
+}
+
+.title{
+	height: 18px;
+	line-height: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: normal;
+	border-left: 3px solid #D61818;
+	padding-left: 9px;
+}
+
+.title a{
+	float:right;
+	color:blue;
+}
+.title a:HOVER{
+	color:red;
+}
+
+.address li{
+	padding-left: 100px;
+	height: 43px;
+	line-height: 43px;
+}
+.address li.selected{
+	position: relative;
+	border: 1px solid #CCCCCC;
+	background:#F5F5F5 url(../img/odercheckout/map_bg.png) no-repeat 10px;
+}
+
+.address li.selected:after{
+	content: "寄送至";
+	position: absolute;
+	left: 33px;
+	top: 0;
+	color: #F33C11;
+	font-size: 16px;
+}
+
+
+.address li input[type=radio]{
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+.address li p{
+	float: right;
+	height: 43px;
+	line-height: 43px;
+}
+
+.address li p a{
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+.a_color{
+	color: #F33C11;
+}
+
+.add_addr{
+	color: #F33C11;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 100px;
+}
+
+.addr_panel{
+	overflow: hidden;
+	border-top: 1px solid #EEEEEE;
+}
+
+.addr_panel p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.addr_panel p span{
+	width: 94px;
+	float: left;
+	text-align: right;
+}
+
+.add_addr_p1{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 55px;
+	background: url(../img/odercheckout/recei_icon.png) no-repeat;
+	margin-left: 20px;
+}
+
+.addr_panel p select{
+	   border: 1px solid #CCCCCC;
+	   height: 30px;
+	   width: auto;
+	   line-height: 30px;
+	   margin-right: 20px;
+}
+
+.addr_panel p textarea{
+	width: 300px;
+	height: 70px;
+	border-left:1px solid #CCCCCC ;
+	padding: 5px;
+	resize: none;
+}
+
+.addr_panel p input[type=text]{
+	width: 310px;
+	height: 30px;
+	text-indent: 8px;
+	line-height: 30px;
+}
+
+#savebt{
+	cursor:pointer;
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #F33C11;
+	border-radius:4px ;
+	margin-right:10px ;
+	border: none;
+}
+
+#canselbt{
+	cursor:pointer;
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #AAAAAA;
+	border-radius:4px ;
+	border: none;
+}
+
+.payway{
+	overflow: hidden;
+	border-top: 1px solid #EEEEEE;
+}
+
+.payway p{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.payway p span{
+	color: #000000;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.payway label{
+	float: left;
+	width: 178px;
+	height: 48px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+
+.payway label input{
+	float: left;
+	margin: 20px;
+}
+
+.det_list{
+	overflow: hidden;
+	border-top: 1px solid #EEEEEE;
+}
+
+.explain{
+	float: left;
+    width: 408px;
+    height: 162px;
+    padding: 20px;
+    border: 1px solid #DDDDDD;
+    background: #F5F5F5;
+}
+
+.explain div{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.explain div span{
+	float: left;
+}
+
+.explain div p{
+	float: left;
+	width: 310px;
+}
+
+.goods{
+	overflow: hidden;
+	float: right;
+	width: 755px;
+}
+
+.goods table{
+	width: 100%;
+	text-align: center;
+}
+
+.goods table *{
+	color: #000000;
+}
+
+.goods table td{
+	padding: 15px;
+}
+
+.goods table td img{
+	border: 1px solid #DDDDDD;
+	width: 85px;
+	height: 85px;
+}
+
+.goods span.price_col{
+	color: #F33C11;
+}
+
+.remarks{
+	overflow: hidden;
+	float:right;
+	width: 600px;
+}
+
+.remarks p{
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.remarks input{
+	width: 318px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #DDDDDD;
+}
+
+.orders{
+	overflow: hidden;
+	border-top: 1px solid #EEEEEE;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.orders table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: right;
+}
+
+.orders table * {
+    color: #000000;
+}
+
+.orders td{
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	padding: 16px 27px 15px 0;
+}
+
+.orders td p{
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+.orders span{
+	font-size: 48px;
+	color: #F33C11;
+}
+
+.orders input{
+	border: none;
+	cursor:pointer;
+	font-size: 24px;
+	width: 145px;
+	height: 50px;
+	color: #FFFFFF;
+	background: #F33C11;
+	border-radius: 4px;
+}
+
+

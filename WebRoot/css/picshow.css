@@ -1,0 +1,118 @@
+
+body{font-size:12px;font-family: "Microsoft Yahei","Î¢ÈíÑÅºÚ";}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+/*·Å´ó¾µ*/
+#preview{
+    width:450px;
+}
+.fdj-wrap{
+    float: left;
+    position:relative;
+	width: 450px;
+	height: 690px;
+	margin-right: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+#img-medium{
+    width: 450px;
+	height: 450px;
+}
+
+#img-medium img{
+	width: 450px;
+	height: 450px;
+}
+
+.fdj-wrap .img-small{
+    width:400px;
+    height:70px;
+    margin-top:5px;
+    /*overflow:hidden;*/
+    padding:0 21px;
+    /*background:red;*/
+    position:relative;
+}
+/*Ð¡Í¼µ¼º½*/
+.fdj-wrap .img-small .img-list-items{
+    width:400px;
+    height:70px;
+    position:absolute;
+    left:21px;
+    top:0;
+    overflow:hidden;
+}
+.fdj-wrap .img-small .left,.fdj-wrap .img-small .right{
+    height:70px;
+    width:20px;
+    text-align:center;
+    color: #DDDDDD;
+    font-size: 30px;
+	background-color: #999999;
+    line-height:70px;
+    position:absolute;
+    font-family:Microsoft YaHei;
+    top:0;
+}
+.left{
+    left:0;
+}
+.right{
+    right:0;
+}
+.fdj-wrap .img-small .img-list-items ul{
+    width:500%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.fdj-wrap .img-small .img-list-items ul li{
+	float: left;
+	width: 67px;
+	height: 67px;
+	margin-left: 5px;
+	margin-right: 8px;
+	cursor: pointer;
+    /*height:58px;*/
+}
+.fdj-wrap .img-small .img-list-items ul li img{
+    width: 100%;
+	height: 100%;
+    cursor:pointer;
+}
+
+/*´óÍ¼*/
+#img-big{
+    display:none;
+    background: #FFFFFF;
+    z-index:3;
+    width:450px;
+    height:450px;
+    position:absolute;
+    top:0px;
+    left:480px;
+    border:1px solid #DDDDDD;
+    overflow:hidden;
+}
+#img-big img{
+    
+    position:absolute;
+    top:0;
+    left:0;
+}
+/*ÕÚÕÖ²ã*/
+#mark{
+    width:150px;
+    height:150px;
+    opacity:0.5;
+    background:#DDDDDD;
+    cursor:move;
+    position:absolute;
+    display:none;
+}

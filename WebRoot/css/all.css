@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	color: #666;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.reorder{
+	width: 1240px;
+	margin:10px auto;
+	border: 1px solid #DDDDDD;
+	background: #F2F2F2;
+	height: 34px;
+	line-height: 34px;
+}
+
+.reorder input[type=text]{
+	border: 1px solid #CCCCCC;
+	width: 56px;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 6px;
+	font-size: 12px;
+}
+
+.reorder input[type=button]{
+	background:#F33C11 ;
+	color: #FFFFFF;
+	border: none;
+	font-size: 12px;
+	width: 44px;
+	height: 22px;
+	border-radius: 4px;
+}
+
+.reorder a{
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.rod_p{
+	float: left;
+	height: 34px;
+	border-right: 1px solid #CCCCCC;
+	margin-right: 16px;
+}
+
+.rod_p2{
+	float: right;
+	height: 34px;
+	font-size: 12px;
+	margin-right: 16px;
+}
+
+.rod_p2 a{
+	font-family: simsun;
+	padding: 0 1px;
+}
+
+.hovers{
+	background: #FFFFFF;
+	color: #F33C11;
+}
+
+.allgoods{
+	width: 1240px;
+	margin:10px auto;
+}
+
+.allgoods ul{
+	text-align: center;
+	overflow: hidden;
+}
+
+.allgoods li{
+	float: left;
+	width: 298px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+	border-bottom: 0;
+}
+
+
+.pro_a{
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 236px;
+}
+
+.allgoods li img{
+	max-width: 236px;
+	max-height: 236px;
+	margin: 20px auto 0;
+}
+
+.allgoods li h1{
+	color: #F33C11;
+	font-weight:normal ;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+.allgoods p{
+	height: 38px;
+	line-height: 20px;
+	overflow: hidden;
+	font-size: 12px;
+	margin: 5px 20px;
+}
+
+.allgoods h2{
+	color: #D61818;
+	font-size: 24px;
+	line-height: 38px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.allgoods table{
+	height: 37px;
+	border-collapse: collapse;
+	margin: 0 -1px;
+	width: -webkit-calc(100% + 2px);
+}
+
+.allgoods table td{
+	width: 50%;
+	border: 1px solid #DDDDDD;
+}
+
+.pro_cart{
+	color: #D61818;
+	text-indent: 25px;
+	background: url(../img/icon/shop_car2.png) no-repeat 32px center;
+}
+
+
+.allgoods table a{
+	display: block;
+	height: 37px;
+	text-align: center;
+	line-height: 37px;
+}
+
+.pages{
+	width: 1240px;
+	margin: 20px auto;
+	text-align: center;
+}
+.pages a {
+	display:inline-block;
+	cursor:pointer;
+	width: 28px;
+	height: 28px;
+	line-height:28px;
+	font-family: simsun;
+	margin: 0 4px;
+	font-size: 14px;
+	background: #f9fafb;
+	border: 1px solid #DDDDDD;
+}
+
+.pages span{
+	font-size: 14px;
+    margin-left: 30px;
+}
+
+.pages a.sel{
+	background: #DDDDDD;
+}
+
+.pages a:HOVER{
+	background: #DDDDDD;
+}
+
+.pages input[type=text] {
+	width: 48px;
+    height: 28px;
+    margin: 0 5px;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+.pages input[type=button] {
+	width: 50px;
+    height: 30px;
+    margin: 0 5px;
+    cursor:pointer;
+    border: 1px solid #dddddd;
+    background: #fafafc;
+}

@@ -1,0 +1,188 @@
+*{
+	color: #666666;
+	font-size: 14px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family:Microsoft YaHei;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+body{
+	margin: 0 auto;
+	min-width: 1240px;
+	max-width: 1920px;
+}
+
+#head{
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.head_nav{
+	margin: auto;
+	width: 1240px;
+	height: 60px;
+}
+.head_logou{
+	float: left;
+	width: 254px;
+	height: 33px;
+	background: url(../img/login/logo.png) no-repeat;
+	margin-top: 14px;
+}
+
+.wellcome{
+	float: left;
+	height: 34px;
+	font-size: 24px;
+	border-left:1px solid #DDDDDD ;
+	margin-left:20px;
+	margin-top:14px ;
+	padding-left:20px ;
+}
+
+#main{
+	margin: auto;
+	width: 1240px;
+	height: 700px;
+}
+
+.register{
+	width: 990px;
+	height: 400px;
+	margin-left: 250px;
+	padding-top: 100px;
+}
+
+.register i{
+	float: left;
+	width: 100px;
+	text-align: right;
+	font-style: normal;
+	line-height: 40px;
+	display: block;
+}
+
+.p1{
+	background: url(../img/register/reg_icon.png) no-repeat 0 0;
+	float: left;
+	height: 38px;
+	border: 1px solid #DDDDDD;
+	padding-left: 38px;
+	margin-bottom: 12px;
+	line-height: 38px;
+	margin-right: 10px;
+}
+
+.p2{
+	background: url(../img/register/reg_icon.png) no-repeat 0 -69px;
+	float: left;
+	height: 38px;
+	border: 1px solid #DDDDDD;
+	padding-left: 38px;
+	margin-bottom: 12px;
+	line-height: 38px;
+	margin-right: 10px;
+}
+
+.p3{
+	float: left;
+	width: 100px;
+	height: 38px;
+	border: 1px solid #DDDDDD;
+	margin-right: 10px;
+}
+
+.register li{
+	margin-bottom: 30px;
+}
+
+.p1 input{
+	width: 250px;
+	height: 38px;
+	line-height: 38px;
+	text-indent: 8px;
+	border-left: 1px solid #DDDDDD;
+}
+
+.p2 input{
+	width: 250px;
+	height: 38px;
+	line-height: 38px;
+	text-indent: 8px;
+	border-left: 1px solid #DDDDDD;
+}
+
+.p3 input{
+	width: 100px;
+	height: 38px;
+	text-indent: 8px;
+}
+
+.register span{
+	color: #F33C11;
+	height: 38px;
+	line-height: 38px;
+}
+
+
+.reg_li label{
+	line-height: 38px;
+	cursor: pointer;
+}
+
+.reg_li input{
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.reg_li a{
+	color: #F33C11;
+}
+
+.reg_bt{
+	margin-top: -20px;
+	color: #FFFFFF;
+	width: 290px;
+	height: 34px;
+	background: #F33C11;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#tip{
+	color: #F33C11;
+	text-align: center;
+	float: left;
+	width: 290px;
+}
+
+#foot{
+	width: 100%;
+	background: #F2F2F2;
+	position: absolute;
+	bottom: 0px;
+}
+
+.footitem{
+	margin: auto;
+	width: 1240px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.footitem p{
+	display: inline;
+}
+.footitem p a{
+	padding-left: 10px;
+	padding-right:10px ;
+}

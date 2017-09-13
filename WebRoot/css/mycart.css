@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	color: #666;
+}
+body{
+	margin: 0 auto;
+	min-width: 1240px;
+	max-width: 1920px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.logou{
+	float: left;
+	width: 254px;
+	height: 33px;
+	margin-top: 39px;
+	margin-bottom:39px;
+	background:url(../img/odercheckout/logo.png) no-repeat center;
+}
+
+.head_tip{
+	overflow: hidden;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.check_p{
+	float: left;
+	font-size: 26px;
+	height: 33px;
+	line-height: 33px;
+	border-left:1px solid #DDDDDD;
+	padding-left: 53px;
+	margin-left: 20px;
+	margin-top: 40px;
+	background: url(../img/odercheckout/shop_car.png) no-repeat 15px 7px;
+}
+
+.shop_process{
+	float: right;
+	width: 504px;
+	height: 64px;
+	background: url(../img/odercheckout/shop_bg1_1.png) no-repeat;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.shop_process li{
+	float: left;
+	width: 124px;
+	line-height: 40px;
+}
+
+.shop_process p{
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 24px;
+	height: 24px;
+	padding-left: 49px;
+	padding-right: 50px;
+	line-height: 24px;
+}
+
+.p_bpic{
+	background: url(../img/odercheckout/shop_bg1_2.png) no-repeat;
+}
+
+.main{
+	overflow: hidden;
+	width: 1240px;
+	margin: 0 auto;
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+
+.title{
+	height: 18px;
+	line-height: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: normal;
+	border-left: 3px solid #D61818;
+	padding-left: 9px;
+}
+
+.title span{
+	color:#F33C11;
+	font-size: 18px;
+}
+
+.shopcart{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.cur1{
+	height:100px;
+	text-align: center;
+}
+
+.cur2{
+	display: none;
+}
+
+.shopcart th{
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #44C1F3;
+	padding: 14px 0;
+	font-weight: normal;
+	border: 1px solid #44C1F3;
+}
+
+
+.shopcart td{
+	padding: 14px 0;
+	border: 1px solid #DDDDDD;
+}
+
+input[type=button], input[type=radio], input[type=checkbox], label {
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+	vertical-align: middle;
+}
+
+.shopcart img{
+	float: left;
+	width: 85px;
+	height: 85px;
+	margin-left: 20px;
+	border: 1px solid #DDDDDD;
+}
+
+.shopcart p{
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+	line-height: 24px;
+}
+
+.shopcart *{
+	color: #000000;
+}
+
+.shopcart td:nth-child(1){
+	width: 80px;
+}
+
+.addbt{
+	float: left;
+	color: #666666;
+	line-height: 14px;
+	width: 15px;
+	height: 15px;
+	margin-left: 0px;
+	margin-right:0pxs;
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+}
+
+.shopcart input[type=text]{
+	float: left;
+	border: 1px solid #DDDDDD;
+	margin-left: 0;
+	margin-right:0 ;
+	width: 20px;
+	height: 15px;
+	font-size:10px ;
+	text-align: center;
+}
+
+.numdiv{
+	margin: 0 auto;
+	width: 64px;
+}
+
+.cartsetl{
+	height: 48px;
+	line-height: 48px;
+	width: 100%;
+	background: #F5F5F5;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 40px;
+}
+
+.cartsetl{
+	padding-left: 20px;
+}
+
+.itmes{
+	margin-left: 35px;
+}
+
+.static{
+	padding-right: 30px;
+	float: right;
+	line-height: 48px;
+}
+
+.total{
+	height:48px;
+	float: right;
+	padding-right: 60px;
+}
+
+.total p{
+	height:48px;
+	line-height: 48px;
+}
+
+.total p span{
+	font-size: 24px;
+	color:#F33C11;
+	margin_left:5px;
+	line-height: 48px;
+}
+
+.pay{
+	float: right;
+	width: 120px;
+	height: 48px;
+	background: #F33C11;
+	color: #FFFFFF;
+	font-size: 24px;
+	border: none;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+
+

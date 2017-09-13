@@ -1,0 +1,505 @@
+* {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #666;
+    font-family:Microsoft YaHei;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	margin: 0 auto;
+	min-width: 1240px;
+	max-width: 1920px;
+}
+
+#pcshow{
+	margin: 0 auto;
+	width: 1240px;
+	height: auto;
+	overflow: hidden;
+}
+
+
+span.on{
+	background-color: #ccc;
+    color: #999;
+    cursor: pointer;
+}
+
+
+.other{
+	position: relative;
+	margin-top: 120px;
+	width: 450px;
+	height: 40px;
+}
+
+.other a{
+	width: 108px;
+	height: 40px;
+	text-align: center;
+	display: inline-block;
+}
+
+.drive{
+	background: url(../img/pcdetail/icon/drive.png) no-repeat;
+}
+
+.share{
+	background: url(../img/pcdetail/icon/icon_share.png) no-repeat 15px 0;
+}
+
+.collect{
+	background: url(../img/pcdetail/icon/icon_collect.png) no-repeat 15px 3px;
+}
+
+.collected{
+	background: url(../img/pcdetail/icon/comment_heart_bg1.png) no-repeat 15px 3px;
+}
+.consult{
+	background: url(../img/pcdetail/icon/consult.png) no-repeat;
+}
+
+.right_intr{
+	float: left;
+	width: 600px;
+	height: auto;
+	margin-left: 40px;
+}
+
+.right_intr h1{
+	font-size: 20px;
+	color: #333333;
+	line-height: 35px;
+	margin-bottom: 10px;
+	
+}
+
+.address{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.address span{
+	width: 20px;
+	margin-left: 5px;
+	background: url(../img/pcdetail/icon/prod_bg1.png) no-repeat 0 6px;
+	cursor:pointer;
+}
+
+.address i{
+	color: #F33C11;
+	font-style:normal ;
+}
+
+.pc_price{
+	height: 105px;
+	padding-left: 20px;
+	background: #F1F1F1;
+}
+.pc_price b{
+	color: #F33C11;
+	font-size: 42px;
+	line-height: 105px;
+	font-weight: normal;
+}
+
+.pc_sales{
+	float: right;
+	width: 138px;
+	height: 75px;
+	border-left: 1px solid #DDDDDD;
+	padding-left: 35px;
+	padding-top: 30px;
+}
+
+.pc_sales i{
+	color: #F33C11;
+	font-style: normal;
+}
+
+.pc_version{
+	overflow: hidden;
+}
+
+.pc_version span{
+	float: left;
+	margin-top: 20px;
+}
+
+.version{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.right_intr li{
+	position: relative;
+	margin-bottom: 10px;
+	border: 2px solid #DDDDDD;
+}
+
+
+.right_intr li a{
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 7px;
+}
+
+.right_intr li:hover{
+	border: 2px solid #D61818;
+}
+
+
+.right_intr li.selected{
+	border: 2px solid #D61818;
+}
+
+.right_intr li.selected:AFTER{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    background: url(../img/pcdetail/icon/prod_bg2.png) no-repeat center;
+}
+
+.pc_color{
+	overflow: hidden;
+}
+
+.pc_color span{
+	float: left;
+	margin-top: 20px;
+}
+
+.colors{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.pc_pak{
+	overflow: hidden;
+}
+.pc_pak span{
+	float: left;
+	margin-top: 20px;
+}
+
+.pakage{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.p_amount{
+	overflow: hidden;
+}
+
+.p_amount span{
+	float: left;
+	margin-top: 20px;
+}
+
+.amount{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.amount input{
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	height: 33px;
+	width: 33px;
+	margin-right: 10px;
+}
+
+.amount div{
+	display: inline-block;
+	width: 15px;
+	vertical-align: middle;
+	margin-right: 40px;
+	margin-top: -3px;
+}
+
+.ad_bt{
+	background: url(../img/pcdetail/icon/prod_bg3.png) no-repeat -1px -1px;
+}
+
+.re_bt{
+	background: url(../img/pcdetail/icon/prod_bg3.png) no-repeat -1px -19px;
+}
+
+.amount i{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.amount input[type=button]{
+	width: 14px;
+	height: 14px;
+}
+
+.servers{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.servers span{
+	display: inline-block;
+	height: 33px;
+	padding-left: 33px;
+	margin-right: 30px;
+	margin-left: 6px;
+}
+
+.server1{
+	background: url(../img/pcdetail/icon/icon4_1.png) no-repeat;
+}
+
+.server2{
+	background: url(../img/pcdetail/icon/icon4_2.png) no-repeat;
+}
+
+.server3{
+	background: url(../img/pcdetail/icon/icon4_5.png) no-repeat;
+}
+
+.p_buy{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.p_buy input[type=button]{
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	width: 160px;
+	height: 40px;
+	border-radius: 4px;
+	line-height: 40px;
+	margin-right: 20px;
+	text-indent: 60px;
+	cursor: pointer;
+}
+
+.p_buy input[type=submit]{
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	width: 160px;
+	height: 40px;
+	border-radius: 4px;
+	line-height: 40px;
+	margin-right: 20px;
+	text-indent: 60px;
+	cursor: pointer;
+}
+
+.p_buy a{
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	width: 160px;
+	height: 40px;
+	border-radius: 4px;
+	line-height: 40px;
+	margin-right: 20px;
+	text-indent: 66px;
+}
+
+.stop_a{
+	background: #888888;
+}
+
+
+.buy_a{
+	background:#F33C11 url(../img/pcdetail/icon/icon5_1.png) no-repeat 29px center;
+}
+.cart_a{
+	background:#F33C11 url(../img/pcdetail/icon/icon5_2.png) no-repeat 21px center;
+}
+
+#pc_detail{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1240px;
+	margin-top: 50px;
+	padding-top: 20px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.pc_hot{
+	float: left;
+	width: 290px;
+	height: 619px;
+	border:1px solid #CCCCCC;
+}
+
+.pc_hot h1{
+	background: none;
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: #ff8a00;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #CCCCCC
+}
+
+.pc_hot li{
+	height: 111px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.pc_hot li:last-child{
+	border-bottom: none;
+}
+
+.pc_hot li span{
+	position: absolute;
+	font-size: 24px;
+	margin-top: 40px;
+	margin-left: 10px;
+	color: #D61818;
+	border: 1px solid #D61818;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 50%;
+}
+.pc_hot li h2{
+	color: #000000;
+	font-weight: normal;
+	background: none;
+}
+.pc_hot li img{
+	width: 111px;
+	height: 111px;
+	float: left;
+}
+
+.pc_hot .div1{
+	height: 111px;
+	float: left;
+	width: 55px;
+}
+
+.pc_hot .div2{
+	width: 120px;
+	float: right;
+	margin-top: 10px;
+}
+
+.pc_hot .div2 h3{
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pc_hot .div2 p{
+	font-size: 12px;
+}
+
+.pc_hot .div2 p b{
+	color: red;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+.details{
+	overflow: hidden;
+	float: right;
+	width: 930px;
+}
+
+.nav_list{
+	overflow: hidden;
+}
+
+.nav_list li{
+	float: left;
+	box-sizing: border-box;
+	width: 25%;
+	height: 60px;
+	line-height: 60px;
+	background: #44C1F3;
+	border-right: 1px solid white;
+	cursor: pointer;
+}
+
+.nav_list a{
+	display: block;
+	color: #FFFFFF;
+	height: 60px;
+	padding-left: 110px;
+}
+
+.nav_list li:nth-child(1) a{
+	background:url(../img/pcdetail/icon/icon7_1.png) no-repeat 59px center;
+}
+
+.nav_list li:nth-child(2) a{
+	background:url(../img/pcdetail/icon/icon7_2.png) no-repeat 59px center;
+}
+
+.nav_list li:nth-child(3) a{
+	background:url(../img/pcdetail/icon/icon7_3.png) no-repeat 59px center;
+}
+
+.nav_list li:nth-child(4) a{
+	background:url(../img/pcdetail/icon/icon7_4.png) no-repeat 59px center;
+}
+
+.nav_list li:hover{
+	background: #01AAEE url(../img/pcdetail/icon/prod_bg5.png) no-repeat bottom;
+}
+
+
+.show_details{
+	display: block;
+	overflow: hidden;
+	margin-top: 5px;
+	width: 930px;
+}
+
+.pc_para{
+	display: none;
+	overflow: hidden;
+	margin-top: 5px;
+	width: 930px;
+}
+
+.after_sale{
+	display: none;
+	overflow: hidden;
+	margin-top: 5px;
+	width: 930px;
+}
+
+.after_sale img{
+	margin-bottom: -5px;
+}
+
+
+
+

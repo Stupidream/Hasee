@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	color: #666;
+}
+body{
+	margin: 0 auto;
+	min-width: 1240px;
+	max-width: 1920px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.logou{
+	float: left;
+	width: 254px;
+	height: 33px;
+	margin-top: 39px;
+	margin-bottom:39px;
+	background:url(../img/odercheckout/logo.png) no-repeat center;
+}
+
+.head_tip{
+	overflow: hidden;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.check_p{
+	float: left;
+	font-size: 26px;
+	height: 33px;
+	line-height: 33px;
+	border-left:1px solid #DDDDDD;
+	padding-left: 53px;
+	margin-left: 20px;
+	margin-top: 40px;
+	background: url(../img/odercheckout/shop_car.png) no-repeat 15px 7px;
+}
+
+.shop_process{
+	float: right;
+	width: 504px;
+	height: 64px;
+	background: url(../img/odercheckout/shop_bg1_1.png) no-repeat;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.shop_process li{
+	float: left;
+	width: 124px;
+	line-height: 40px;
+}
+
+.shop_process p{
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 24px;
+	height: 24px;
+	padding-left: 49px;
+	padding-right: 50px;
+	line-height: 24px;
+}
+
+.p_bpic{
+	background: url(../img/odercheckout/shop_bg1_2.png) no-repeat;
+}
+
+.main{
+	overflow: hidden;
+	padding-top: 50px;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.pymd1{
+	padding-left: 52px;
+	background: url(../img/odercheckout/paym_bg1_1.png) no-repeat left top;
+}
+
+.pymd1 p{
+	line-height: 30px;
+}
+
+.pymp1{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.pymp2{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.pymd1 span{
+	font-size: 24px;
+    color: #f33c11;
+}
+
+.pymp3{
+	margin:30px auto;
+}
+
+.pymimg1{
+	padding-left: 30px;
+	border: 1px solid #DDDDDD;
+	vertical-align: middle;
+}
+
+.pymd1 input{
+	color: #FFFFFF;
+	width: 145px;
+	cursor:pointer;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 24px;
+	border-radius:4px ;
+	background: #F33C11;
+	border: none;
+	margin-bottom: 30px;
+}
+
+.pymd2{
+	padding-left: 52px;
+	background: url(../img/odercheckout/paym_bg1_2.png) no-repeat left top;
+	margin-bottom: 50px;
+}
+
+.pymd2 p{
+	line-height: 30px;
+}
+
+.succeedtip{
+	width: 1240px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.succeedtip p{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-size: 18px;
+	color: #000000;
+}
+
+.succeedtip span{
+	font-size: 24px;
+	color: #F33C11;
+}
+
+
